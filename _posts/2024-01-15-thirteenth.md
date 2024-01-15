@@ -11,16 +11,17 @@ public class lotto {
 
 public static void main(String[] args) {
 	
+ 
  int lotto[] = new int [7];
 	
-	for(int i=0; i<6; i++) {
+for(int i=0; i<6; i++) {
 		
-  lotto[i] = (int)(Math.random() * 45) + 1;// 46번까지 번호 생성
+lotto[i] = (int)(Math.random() * 45) + 1;// 46번까지 번호 생성
         
    		  	 
-		for(int j=0; j<i; j++) {
+for(int j=0; j<i; j++) {
 			
-   if(lotto[i] == lotto[j]) {
+if(lotto[i] == lotto[j]) {
 				
 			continue;// 중복 번호 나오면 계속 돌린다
 			}
