@@ -25,7 +25,7 @@ if(lotto[i] == lotto[j]) {
 				
 			continue;// 중복 번호 나오면 계속 돌린다
 			}
-				break;// 중복 번호 제거
+				break;// 중복 번호 제거되면 번호출력
 			}
 		}
 	
