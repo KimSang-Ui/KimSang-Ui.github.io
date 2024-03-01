@@ -16,22 +16,50 @@
 //         }
 // }
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-class Star {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
-        for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print("*");
+// class Star {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+//         int n = scanner.nextInt();
+//         for (int i = 1; i <= n; i++) {
+//             for (int j = 1; j <= i; j++) {
+//                 System.out.print("*");
 
-            }
-            System.out.println();
+//             }
+//             System.out.println();
 
-        }
+//         }
 
-    }
+//     }
+// }
+
+// tosString메서드
+
+class Box {
+	private String conts;
+
+	Box(String cont) {
+		this.conts = cont;
+	}
+
+	public String toString() {
+		return conts; // 문자열 반환
+	}
+}
+
+public class toString {
+	public static void main(String[] args) {
+		StringBuilder stb = new StringBuilder("12");
+		stb.append(34);
+		System.out.println(stb.toString());
+		System.out.println(stb);
+
+		Box box = new Box("Camera");
+		System.out.println(box.toString());
+		System.out.println(box);
+	}
+
 }
 
 /*
