@@ -34,33 +34,33 @@
 //     }
 // }
 
-// tosString메서드
+// toString메서드
 
-class Box {
-	private String conts;
+// class Box {
+// 	private String conts;
 
-	Box(String cont) {
-		this.conts = cont;
-	}
+// 	Box(String cont) {
+// 		this.conts = cont;
+// 	}
 
-	public String toString() {
-		return conts; // 문자열 반환
-	}
-}
+// 	public String toString() {
+// 		return conts; // 문자열 반환
+// 	}
+// }
 
-public class toString {
-	public static void main(String[] args) {
-		StringBuilder stb = new StringBuilder("12");
-		stb.append(34);
-		System.out.println(stb.toString());
-		System.out.println(stb);
+// public class Test {
+// 	public static void main(String[] args) {
+// 		StringBuilder stb = new StringBuilder("12");
+// 		stb.append(34);
+// 		System.out.println(stb.toString());
+// 		System.out.println(stb);
 
-		Box box = new Box("Camera");
-		System.out.println(box.toString());
-		System.out.println(box);
-	}
+// 		Box box = new Box("Camera");
+// 		System.out.println(box.toString());
+// 		System.out.println(box);
+// 	}
 
-}
+// }
 
 /*
  * 사용자로부터 몇단?
