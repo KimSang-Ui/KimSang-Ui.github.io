@@ -110,3 +110,16 @@
 // }
 
 // }
+
+public class Test {
+    public static void main(String[] args) {
+       int num = 1;
+
+       while(true){
+           if(((num % 8) == 0) && ((num % 16) == 0))
+               break;
+           num ++;
+           System.out.println(num);
+       }
+    }
+}
