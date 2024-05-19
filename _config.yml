@@ -14,7 +14,7 @@
 # remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
-# Site Settings
+ Site Settings
 locale                   : "ko-KR"
 title                    : "MY Studies and Diary"
 title_separator          : "-"
@@ -102,7 +102,7 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
+Site Author
 author:
   name             : "KimSang-Ui"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
