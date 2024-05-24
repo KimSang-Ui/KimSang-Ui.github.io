@@ -291,5 +291,6 @@ defaults:
       share: true
       related: true
       future : true
+      published : true
 
 timezone: Asia/Seoul
