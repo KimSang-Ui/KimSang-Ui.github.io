@@ -2,7 +2,7 @@
 layout: single
 title:  "19번째 포스팅입니다.!"
 ---
-#소스트리 기능들
+# 소스트리 기능들
 
 ![image](https://github.com/KimSang-Ui/KimSang-Ui.github.io/assets/155289035/c23b8d78-c5da-4c83-a03f-750cb9b55af9)
 
